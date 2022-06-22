@@ -1,0 +1,3 @@
+C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5787.29\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\CRecursia.dir/objects.a
+C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5787.29\bin\mingw\bin\ar.exe qc CMakeFiles\CRecursia.dir/objects.a @CMakeFiles\CRecursia.dir\objects1.rsp
+C:\Users\Admin\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5787.29\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\CRecursia.dir/objects.a -Wl,--no-whole-archive -o CRecursia.exe -Wl,--out-implib,libCRecursia.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CRecursia.dir\linklibs.rsp

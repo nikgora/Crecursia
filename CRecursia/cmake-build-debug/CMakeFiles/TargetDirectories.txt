@@ -1,3 +1,3 @@
-C:/Users/Admin/Documents/ALl/University/C/CRecursia/cmake-build-debug/CMakeFiles/CRecursia.dir
-C:/Users/Admin/Documents/ALl/University/C/CRecursia/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Admin/Documents/ALl/University/C/CRecursia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Admin/Documents/ALl/University/C/Crecursia/CRecursia/cmake-build-debug/CMakeFiles/CRecursia.dir
+C:/Users/Admin/Documents/ALl/University/C/Crecursia/CRecursia/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Admin/Documents/ALl/University/C/Crecursia/CRecursia/cmake-build-debug/CMakeFiles/rebuild_cache.dir
