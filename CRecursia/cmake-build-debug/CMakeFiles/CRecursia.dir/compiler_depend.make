@@ -15,12 +15,24 @@ CMakeFiles/CRecursia.dir/main.c.obj: ../main.c \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/string.h \
   C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/math.h \
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
+  C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/errno.h
 
 
 ../main.c:
 
 C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/vadefs.h:
+
+C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
 C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h:
 
@@ -47,3 +59,21 @@ C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/m
 C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
 
 C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h:
+
+C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h:
+
+C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/math.h:
+
+C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/limits.h:
+
+C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/stdlib.h:
+
+C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
+
+C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h:
+
+C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h:
+
+C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/malloc.h:
+
+C:/Users/Admin/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/mingw/x86_64-w64-mingw32/include/errno.h:

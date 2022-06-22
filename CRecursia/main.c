@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
+#include <stdlib.h>
 
 #define N 100
 
@@ -13,17 +15,58 @@ int countLetter(char string[N], char letters[N], int res, int index);
 
 void print(char string[N], int index);
 
+void enterKoef(float *koef, int n);
+
+void poshitat(float a, float b, float *koef, int n, float step);
+
 int main() {
-    char string[N] = "Asp";
-    char letters[N] = "Asp";
-    int a, b, c, d;
+
+    //int a, b, c, d;
     //scanf("%d%d%d%d", &a, &b, &c, &d);
     //printf("gcd(a, b) = %d\ngcd(a, c) = %d\ngcd(a, d) = %d\n", gcd(a, b), gcd(a, c), gcd(a, d));
-    //printf("%d", makkarti(91));
+    //int n;
+    //scanf("%d", &n);
+    //printf("%d", makkarti(n));
+    //char string[N] = "Asp";
+    //char letters[N] = "Asp";
     //print(string, 0);
     //reversePrint(string,0);
-    printf("%d", countLetter(string, letters, 0, 0));
+    //printf("%d", countLetter(string, letters, 0, 0));
+    float a, b;
+    puts("Enter a, b");
+    scanf("%f%f", &a, &b);
+    puts("Enter power of function");
+    int n;
+    scanf("%d", &n);
+    n++;
+    float *koef = calloc(n, sizeof(float));
+    puts("Enter koeficent");
+    enterKoef(koef, n);
+    float step;
+    puts("Enter step");
+    scanf("%f", &step);
+    poshitat(a, b, koef, n, step);
     return 0;
+}
+
+void poshitat(float a, float b, float *koef, int n, float step) {
+    float res = 0;
+    for (int i = 0; i < n && a - b < step; ++i) {
+        res += koef[i] * pow(a, n - i - 1);
+    }
+
+    if (a - b < step) {
+        printf("in %f you function is %f\n", a, res);
+        poshitat(a + step, b, koef, n, step);
+    }
+}
+
+void enterKoef(float *koef, int n) {
+    for (int i = 0; i < n; ++i) {
+        float temp;
+        scanf("%f", &temp);
+        koef[i] = temp;
+    }
 }
 
 int countLetter(char string[N], char letters[N], int res, int index) {
