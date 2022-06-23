@@ -27,11 +27,12 @@ int main() {
     //int n;
     //scanf("%d", &n);
     //printf("%d", makkarti(n));
-    //char string[N] = "Asp";
-    //char letters[N] = "Asp";
+    //char string[N] = "Aspd";
+    //char letters[N] = "Asansp";
     //print(string, 0);
     //reversePrint(string,0);
     //printf("%d", countLetter(string, letters, 0, 0));
+    /*
     float a, b;
     puts("Enter a, b");
     scanf("%f%f", &a, &b);
@@ -45,7 +46,7 @@ int main() {
     float step;
     puts("Enter step");
     scanf("%f", &step);
-    poshitat(a, b, koef, n, step);
+    poshitat(a, b, koef, n, step);*/
     return 0;
 }
 
